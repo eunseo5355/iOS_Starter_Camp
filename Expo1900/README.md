@@ -1,8 +1,6 @@
 # Exposition Universelle
 만국박람회 프로젝트 저장소
 
-<br> 
-
 ### 실행화면
 ![Expo 실행화면](https://user-images.githubusercontent.com/55755686/115770650-eafaa600-a3e7-11eb-906a-89752c4dcaed.gif)
 
@@ -25,7 +23,7 @@
 |---|---|
 |JSON|데이터를 저장하거나 전송할 때 많이 사용되는 경량의 DATA 교환 형식|
 |Decoding|인코딩된 정보를 부호화되기 전으로 되돌리는 처리 혹은 처리 방식|
-|Encoding|다른 형태나 형식으로 변환하는 처리 혹은 처리 방식 ex) Swift -> JSON|
+|Encoding|다른 형태나 형식으로 변환하는 처리 혹은 처리 방식 ex) Swift → JSON|
 |Codable|Decodable과 Encodable 프로토콜을 결합한 typealias|
 |CodingKey|인코딩 및 디코딩을 위한 키로 사용할 수 있는 프로토콜|
 
