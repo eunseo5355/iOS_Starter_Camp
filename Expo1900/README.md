@@ -1,13 +1,16 @@
-# Exposition Universelle
+# Exposition Universelle🇰🇷
 만국박람회 프로젝트 저장소
 
-### 실행화면
+[STEP 1](#step-1) <br>
+[STEP 2](#step-2)
+
+### 📱실행화면
 ![Expo 실행화면](https://user-images.githubusercontent.com/55755686/115770650-eafaa600-a3e7-11eb-906a-89752c4dcaed.gif)
 
-<br>
+---
 
 ## STEP 1 
-### JSON 데이터와 매칭할 모델 타입 구현
+### JSON 데이터와 매칭할 모델 타입 구현✨
 - ```Expo```
     - CodingKeys 구현
     <br> CodingKey를 채택하여 스네이크 케이스인 JSON 타입의 Key를 소문자 카멜케이스로 바꿔줌
@@ -16,9 +19,7 @@
 👉 두 타입 모두 Decodable 채택
 <br>JSON 타입으로 변환시킬 수 있는 인코딩 기능은 필요없다고 생각함
 
-<br>
-
-### 학습 내용
+### 📚학습 내용
 |KeyWord|Description|
 |---|---|
 |JSON|데이터를 저장하거나 전송할 때 많이 사용되는 경량의 DATA 교환 형식|
@@ -27,10 +28,10 @@
 |Codable|Decodable과 Encodable 프로토콜을 결합한 typealias|
 |CodingKey|인코딩 및 디코딩을 위한 키로 사용할 수 있는 프로토콜|
 
-<br>
+---
 
 ## STEP 2
-### 화면 구현
+### 화면 구현✨
 - ```ExpoViewController```
     - JSON 데이터 디코딩하여 UI가 업데이트 되도록 구현
     - JSON 디코딩하는 메소드(```loadJsonData()```)의 반환타입을 Result 타입으로 지정
@@ -55,8 +56,6 @@
 - ```EntryWorkDetailViewController```
     - entryWorkItem 프로퍼티로 데이터를 전달받아서 UI를 업데이트 시켜줌
 
-<br>
-
 ### loadJsonData() 메소드
 - 개선한 점
     - 초기 구현
@@ -69,9 +68,7 @@
 ```guard let dataAsset = NSDataAsset.init(name: "items") else { return .failure(.incorrectAssert) }```
 ```NSDataAsset.init(name:)``` 을 사용하여 name에 작성한 파일의 데이터를 guard 구문을 사용하여 안전하게 가져와줌
 
-<br>
-
-### 학습 내용
+### 📚학습 내용
 - **Table View**(UITableView)
     - 테이블 뷰는 간단한 형태의 리스트로, 각 항목은 Cell이라고 부른다.
     - **Plain, Grouped, Inset Grouped** 세 가지 스타일이 있다.
