@@ -108,7 +108,7 @@ guard let dataAsset = NSDataAsset.init(name: "items") else { return .failure(.in
     - 셀에 데이터를 넣어준 후 레이아웃이 다시 그려지도록 하면 해결될 것이다.
 
 - 해결방법
-    - 오류가 발생한 해당 뷰 컨트롤러(```EntryWorkViewController```)의 ```viewDidLayoutSubviews``` 메소드에 ```layoutIfNeeded()``` 를 추가해줌
+    - 오류가 발생한 해당 뷰 컨트롤러(```EntryWorkViewController```)의 ```viewDidLayoutSubviews()``` 메소드에 ```layoutIfNeeded()``` 메소드를 호출해줌
 
     ```Swift
     override func viewDidLayoutSubviews() {
