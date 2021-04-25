@@ -1,6 +1,6 @@
 # Exposition Universelle🇰🇷
 ### 만국박람회 프로젝트
-🗓기간 : 21.04.05 ~ 21.04.16 <br>
+🗓기간 : 2021. 04. 05 ~ 2021. 04. 16 <br>
 📝설명 : 파리 만국박람회 1900에 대한 설명과 한국의 출품작을 볼 수 있는 앱
 
 ### 목차
@@ -108,7 +108,7 @@ guard let dataAsset = NSDataAsset.init(name: "items") else { return .failure(.in
     - 셀에 데이터를 넣어준 후 레이아웃이 다시 그려지도록 하면 해결될 것이다.
 
 - 해결방법
-    - 오류가 발생한 해당 뷰 컨트롤러(```EntryWorkViewController```)의 ```viewDidAppear()``` 메소드에 ```layoutIfNeeded()``` 를 추가해줌
+    - 오류가 발생한 해당 뷰 컨트롤러(```EntryWorkViewController```)의 ```viewDidLayoutSubviews``` 메소드에 ```layoutIfNeeded()``` 를 추가해줌
 
     ```Swift
     override func viewDidLayoutSubviews() {
