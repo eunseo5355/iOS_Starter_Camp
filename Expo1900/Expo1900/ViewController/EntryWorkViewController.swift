@@ -30,7 +30,7 @@ final class EntryWorkViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = false
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewDidLayoutSubviews() {
         self.view.layoutIfNeeded()
     }
     
