@@ -14,3 +14,6 @@
 
 ### 💷 은행 창구 매니저 프로젝트
 [해당 폴더로 이동](https://github.com/eunseo5355/iOS_Starter_Camp/tree/master/BankManagerConsoleApp)
+
+### 🛒 오픈 마켓 프로젝트
+[해당 폴더로 이동](https://github.com/eunseo5355/iOS_Starter_Camp/tree/master/OpenMarket)
