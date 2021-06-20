@@ -17,3 +17,6 @@
 
 ### 🛒 오픈 마켓 프로젝트
 [해당 폴더로 이동](https://github.com/eunseo5355/iOS_Starter_Camp/tree/master/OpenMarket)
+
+### 🗒 동기화 메모장 프로젝트
+[해당 폴더로 이동](https://github.com/eunseo5355/iOS_Starter_Camp/tree/master/CloudNotes)
