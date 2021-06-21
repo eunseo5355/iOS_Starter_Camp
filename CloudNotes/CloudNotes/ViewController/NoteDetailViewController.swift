@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Foundation
 
 final class NoteDetailViewController: UIViewController {
     var noteTextViewModel: NoteTextViewModel?

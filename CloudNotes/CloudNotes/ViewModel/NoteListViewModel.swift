@@ -5,9 +5,7 @@
 //  Created by 배은서 on 2021/06/07.
 //
 
-import Foundation
 import UIKit.UIApplication
-import CoreData
 
 final class NoteListViewModel: NoteManageable {
     static let dateFormatter: DateFormatter = {
