@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # iOS_Starter_Camp
 
 ### ✌🏻 묵찌빠 프로젝트
@@ -23,5 +22,6 @@
 [해당 폴더로 이동](https://github.com/eunseo5355/iOS_Starter_Camp/tree/master/CloudNotes)
 
 ### 🗓 프로젝트 관리 앱 프로젝트
+[해당 폴더로 이동](https://github.com/eunseo5355/iOS_Starter_Camp/tree/master/ProjectManager)
 
 
